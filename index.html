@@ -173,18 +173,19 @@
                 </section>
             </article>
             <article class="contact-section" id="contact">
-                <div class="contact-section-image"></div>
-                <form class="contact-section-box">
-                    <h2 class="section-title left">Contacto</h2>
-                    <p>¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                <img class="contact-section-image" src="contacto.png"/>
+                <form class="contact-section-form">
+                    <h2 class="section-title left" id="contact-title">Contacto</h2>
+                    <p class="contact-text">¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
                     <label for="input-name" class="form-labels">Nombre <br></label>
-                    <input type="text" id="input-name" name="input-name" class="form-inputs" spellcheck="false">
+                    <input type="text" id="input-name" name="input-name" class="form-inputs normal" spellcheck="false">
                     <label for="input-email" class="form-labels">E-mail <br></label>
-                    <input type="text" id="input-email" name="input-email" class="form-inputs" spellcheck="false">
+                    <input type="text" id="input-email" name="input-email" class="form-inputs normal" spellcheck="false">
                     <label for="input-about" class="form-labels">Asunto <br></label>
-                    <input type="text" id="input-about" name="input-about" class="form-inputs" spellcheck="false">
+                    <input type="text" id="input-about" name="input-about" class="form-inputs normal" spellcheck="false">
                     <label for="input-message" class="form-labels">Mensaje <br></label>
-                    <input type="text" id="input-message" name="input-message" class="form-inputs big" spellcheck="false">
+                    <textarea id="input-message" name="" name="input-message" class="form-inputs big" rows="4" cols="50" maxlength="340"></textarea>
+                    <!-- <input type="text" id="input-message" name="input-message" class="form-inputs big" spellcheck="false" cols="70" rows="2"> -->
                     <button type="submit" class="button-blue" id="button-submit">Enviar mensaje</button>
                 </form>
             </article>
