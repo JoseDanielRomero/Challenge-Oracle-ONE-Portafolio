@@ -14,7 +14,151 @@ html, body {
 .container {
     height: 500%;
     width: 100%;
-    background-color: red;
+    background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+header {
+    height: 10%;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-box {
+    width: 30%;
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.nav-items {
+    font-weight: 500;
+    transition: all .1s;
+}
+
+.nav-items.nav-bar:hover {
+    cursor: pointer;
+    color: #2A7AE4;
+}
+
+main {
+    height: 280%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-section {
+    height: 10.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.5%;
+}
+
+.title-box {
+    height: 100%;
+    width: 70%;
+}
+
+.intro-section-title {
+    font-size: 2.5rem;
+}
+
+.intro-section-subtitle {
+    font-weight: 400;
+}
+
+.photo-box {
+    height: 100%;
+    width: 30%;
+}
+
+.photo-jose-romero {
+    width: 100%;
+    border-radius: 200px;
+}
+
+.shortcuts-links {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.about-me-section {
+    height: 13%;
+    background-color: rgba(234, 242, 253, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1.5%;
+}
+
+.aboutme-section-box {
+    width: 60%;
+}
+
+.aboutme-section-text {
+    line-height: 1.5rem;
+}
+
+.sign-image {
+    height: 70px;
+    margin-bottom: 4%;
+}
+
+.skills-section, .hobbies-section {
+    height: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1.5%;
+}
+
+.section-title.center {
+    text-align: center;
+}
+
+.ability-list-container {
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ability-box {
+    height: 100%;
+    width: 15%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    padding: 15px 15px;
+    gap: 7px;
+}
+
+.ability-box-icon {
+    height: 50px;
+}
+
+.ability-box-name {
+    margin: 0;
+    font-size: .8rem;
 }
