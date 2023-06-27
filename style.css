@@ -23,7 +23,7 @@ html, body {
 }
 
 header {
-    height: 10%;
+    height: 9%;
     width: 85%;
     display: flex;
     flex-direction: row;
@@ -114,6 +114,14 @@ main {
     gap: 5%;
 }
 
+.nav-items {
+    transition: all .1s;
+}
+
+.nav-items.sh:hover {
+    color: #2A7AE4;
+}
+
 .about-me-section {
     height: 13%;
     background-color: rgba(234, 242, 253, 1);
@@ -185,6 +193,7 @@ main {
     align-items: center;
     justify-content: space-between;
     padding: 1% 0;
+    margin-bottom: 1.5%;
 }
 
 .education-list-container {
@@ -247,6 +256,95 @@ main {
 }
 
 .job-experience-section {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.job-experience-box {
     height: 30%;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2%;
+}
+
+.project-name, .project-details {
+    margin: 4% 0%;
+}
+
+.project-image {
+    height: 100%;
+    width: 70%;
+    box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.2);
+}
+
+.project-details {
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+.job-experience-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.button-transparent {
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid #2A7AE4;
+    font-weight: 500;
+    font-size: .9rem;
+    text-align: center;
+    color: #2A7AE4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-blue {
+    padding: 10px 15px;
+    background-color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    font-weight: 500;
+    font-size: .9rem;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+#project-2-image {
+    order: 2;
+}
+
+#project-2-details {
+    order: 1;
+}
+
+.project-2 {
+    align-items: flex-end;
+}
+
+.contact-section {
+    height: 14.5%;
+}
+
+footer {
+    height: 9%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
 }
