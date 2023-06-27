@@ -10,6 +10,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -243,4 +244,9 @@ main {
 
 #ug-icon {
     width: 130px;
+}
+
+.job-experience-section {
+    height: 30%;
+    border: 1px solid red;
 }
