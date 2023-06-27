@@ -1,8 +1,4 @@
-$(function() {
-
-    $('#about-me-button').click(function () {
-        window.scrollTo(0, 500)
-    })
-
-
-})
+function scrollElement(section){
+    var element = document.getElementById(section);
+    element.scrollIntoView();
+   }
