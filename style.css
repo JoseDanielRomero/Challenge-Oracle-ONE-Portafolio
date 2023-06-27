@@ -3,6 +3,7 @@
     -webkit-box-sizing: border-box; 
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    color: #464646;
 }
 
 html, body {
@@ -50,6 +51,14 @@ nav {
 .nav-items.nav-bar:hover {
     cursor: pointer;
     color: #2A7AE4;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
 }
 
 main {
@@ -161,4 +170,64 @@ main {
 .ability-box-name {
     margin: 0;
     font-size: .8rem;
+}
+
+.education-section {
+    height: 11%;
+    background-color: rgba(234, 242, 253, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 0;
+}
+
+.education-list-container {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.education-box {
+    height: 100%;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3%;
+}
+
+.education-box-name, .education-box-institute {
+    margin: 0;
+}
+
+.education-box-institute {
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+.education-box-for-images {
+    height: 70%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.education-box-image {
+    width: 150px;
+}
+
+#bitdegree-icon {
+    filter: invert(1);
+}
+
+#ug-icon {
+    width: 130px;
 }
