@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="style-mobile.css"/>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="function.js"></script>
 </head>
@@ -36,9 +37,9 @@
                     <h1 class="intro-section-title">Hola! mi nombre es<br> José Daniel Romero</h1>
                     <h3 class="intro-section-subtitle">Frontend developer de Ecuador.</h3>
                     <section class="shortcuts-links">
-                        <a title="Github" href="https://github.com/JoseDanielRomero" class="shortcuts" target="_blank"><h4 class="nav-items sh">Github<img src="arrow_back_black_24dp 1.png"/></h4></a>
-                        <a title="Linkedin" href="https://www.linkedin.com/in/jose-daniel-romero-t/" class="shortcuts" target="_blank"><h4 class="nav-items sh">Linkedin<img src="arrow_back_black_24dp 1.png"/></h4></a>
-                        <a title="Instagram" href="https://www.instagram.com/josedanielromero_t/" class="shortcuts" target="_blank"><h4 class="nav-items sh">Instagram<img src="arrow_back_black_24dp 1.png"/></h4></a>
+                        <a title="Github" href="https://github.com/JoseDanielRomero" class="shortcuts" target="_blank"><h4 class="nav-items sh">Github<img src="arrow_back_black_24dp 1.png" class="arrow-icon"/></h4></a>
+                        <a title="Linkedin" href="https://www.linkedin.com/in/jose-daniel-romero-t/" class="shortcuts" target="_blank"><h4 class="nav-items sh">Linkedin<img src="arrow_back_black_24dp 1.png" class="arrow-icon"/></h4></a>
+                        <a title="Instagram" href="https://www.instagram.com/josedanielromero_t/" class="shortcuts" target="_blank"><h4 class="nav-items sh">Instagram<img src="arrow_back_black_24dp 1.png" class="arrow-icon"/></h4></a>
                     </section>
                 </div>
                 <div class="photo-box">
@@ -178,11 +179,11 @@
                     <h2 class="section-title left" id="contact-title">Contacto</h2>
                     <p class="contact-text">¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
                     <label for="input-name" class="form-labels">Nombre <br></label>
-                    <input type="text" id="input-name" name="input-name" class="form-inputs normal" spellcheck="false">
+                    <input type="text" id="input-name" name="input-name" class="form-inputs normal" spellcheck="false" autocomplete="off" maxlength="100">
                     <label for="input-email" class="form-labels">E-mail <br></label>
-                    <input type="text" id="input-email" name="input-email" class="form-inputs normal" spellcheck="false">
+                    <input type="text" id="input-email" name="input-email" class="form-inputs normal" spellcheck="false" autocomplete="off" maxlength="100">
                     <label for="input-about" class="form-labels">Asunto <br></label>
-                    <input type="text" id="input-about" name="input-about" class="form-inputs normal" spellcheck="false">
+                    <input type="text" id="input-about" name="input-about" class="form-inputs normal" spellcheck="false" autocomplete="off" maxlength="100">
                     <label for="input-message" class="form-labels">Mensaje <br></label>
                     <textarea id="input-message" name="" name="input-message" class="form-inputs big" rows="4" cols="50" maxlength="340"></textarea>
                     <!-- <input type="text" id="input-message" name="input-message" class="form-inputs big" spellcheck="false" cols="70" rows="2"> -->
