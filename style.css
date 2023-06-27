@@ -12,8 +12,9 @@ html, body {
 }
 
 .container {
-    height: 200%;
+    height: 500%;
     width: 100%;
+    background-color: red;
     display: flex;
     flex-direction: column;
 }
