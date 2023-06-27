@@ -34,6 +34,10 @@ header {
     width: 30%;
 }
 
+.logo {
+    font-family: 'Martian Mono', monospace;
+}
+
 nav {
     width: 60%;
     display: flex;
@@ -222,10 +226,19 @@ main {
 
 .education-box-image {
     width: 150px;
+    transition: all .1s;
+}
+.education-box-image:hover {
+    filter: opacity(80%);
 }
 
 #bitdegree-icon {
     filter: invert(1);
+    width: 170px;
+}
+
+#bitdegree-icon:hover {
+    filter: invert(60%);
 }
 
 #ug-icon {
