@@ -295,6 +295,7 @@ main {
     width: 150px;
     transition: all .1s;
 }
+
 .education-box-image:hover {
     filter: opacity(80%);
 }

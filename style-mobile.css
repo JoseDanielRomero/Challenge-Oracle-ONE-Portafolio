@@ -11,7 +11,7 @@
     }
 
     .container {
-        height: 500%;
+        height: 600%;
         width: 100%;
         background-color: #F5F5F5;
         display: flex;
@@ -20,7 +20,7 @@
     }
 
     header {
-        height: 50%;
+        height: 120px;
     }
 
     .logo {
@@ -29,6 +29,10 @@
 
     nav {
         display: none;
+    }
+
+    .section-title {
+        font-size: 1.4rem;
     }
 
     main {
@@ -70,7 +74,7 @@
     }
 
     .intro-section-title {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
     
     .intro-section-subtitle {
@@ -88,8 +92,6 @@
     .photo-jose-romero {
         width: 30%;
     }
-
-
 
     .about-me-section {
         height: 25%;
@@ -131,5 +133,89 @@
         height: 100%;
         width: 100%;
     }
+
+    .education-section {
+        height: 25%;
+    }
+
+    .education-list-container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+
+    .education-box {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 3%;
+        padding-top: 3%;
+    }
+
+    .education-box-image {
+        width: 100px;
+        transition: all .1s;
+    }
+
+    #bitdegree-icon {
+        filter: invert(1);
+        width: 160px;
+    }
+    
+    #ug-icon {
+        width: 90px;
+    }
+
+    .job-experience-section {
+        height: 60%;
+        gap: 15px;
+    }
+
+    .job-experience-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 300px;
+    }
+
+    #job-experience-title {
+        margin-bottom: 2%;
+    }
+
+    #project-2-image {
+        order: 1;
+    }
+    
+    #project-2-details {
+        order: 2;
+    }
+
+    .project-image {
+        height: 60%;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .contact-section {
+        height: 20%;
+        padding: 5% 0;
+    }
+
+    .contact-section-image {
+        display: none;
+    }
+
+    .contact-section-form {
+        width: 100%;
+    }
+
+    footer {
+        height: 5%;
+    }
+
 
 }
